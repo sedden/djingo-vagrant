@@ -15,7 +15,7 @@ Vagrant.configure("2") do |config|
   end
 
   # kaspar.djingo.org
-  config.vm.define "kaspar.djingo.org" do |kaspar|
+  config.vm.define "kaspar" do |kaspar|
     kaspar.vm.hostname = "kaspar.djingo.org"
     kaspar.vm.box = "trusty-server-cloudimg-amd64"
     kaspar.vm.box_url = "http://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box"
@@ -23,7 +23,7 @@ Vagrant.configure("2") do |config|
   end
 
   # nepomuk.djingo.org
-  config.vm.define "nepomuk.djingo.org" do |nepomuk|
+  config.vm.define "nepomuk" do |nepomuk|
     nepomuk.vm.hostname = "nepomuk.djingo.org"
     nepomuk.vm.box = "trusty-server-cloudimg-amd64"
     nepomuk.vm.box_url = "http://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box"
@@ -31,7 +31,7 @@ Vagrant.configure("2") do |config|
   end
 
   # nautilus.djingo.org
-  config.vm.define "nautilus.djingo.org" do |nautilus|
+  config.vm.define "nautilus" do |nautilus|
     nautilus.vm.hostname = "nautilus.djingo.org"
     nautilus.vm.box = "trusty-server-cloudimg-amd64"
     nautilus.vm.box_url = "http://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box"
